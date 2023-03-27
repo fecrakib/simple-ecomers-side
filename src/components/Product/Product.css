@@ -6,8 +6,11 @@ border-radius: 8px;
 
 }
 .cart img{
-width: 90%;
+/* width: 90%; */
 border-radius: 10px;
+width: 270px;
+height: 270px;
+background-color: red;
 
 
 }
@@ -20,7 +23,11 @@ border-radius: 10px;
 text-align: center;
 margin: auto;
 padding-top: 5px;
+
 }
 .cart-description{
     padding-left: 10px;
+}
+.btn{
+    bottom: 0;
 }

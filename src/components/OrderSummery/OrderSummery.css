@@ -1,0 +1,17 @@
+.product-summary{
+    padding-left: 10px;
+}
+.oredr-btn button{
+   
+    width: 100%;
+}
+.oredr-btn{
+    margin-bottom: 10px;
+}
+.btn-clear{
+    margin-bottom: 10px;
+    background-color: #FF3030;
+}
+.btn-checkout{
+    background-color: #FF9900;
+}
