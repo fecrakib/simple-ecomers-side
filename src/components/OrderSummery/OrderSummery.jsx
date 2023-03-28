@@ -1,15 +1,17 @@
 import React from "react";
 import './OrderSummery.css'
-const OrderSummery = (props) => {
-    console.log(props)
+const OrderSummery = ({total,selectedItem,shippingCharge,tax,grandTotal}) => {
+ 
   return (
-    <div>
+    <div className="order-summary">
   
       <div  className="product-summary">
-      <h1>Order Summary</h1>
-      <h4>Selected price:{props.item}</h4>
-      <h4> Total Shipping Charge:$</h4>
-      <h4>Grand Total:$</h4>
+      {/* <h2>Order Summary</h2> */}
+      <h4>Selected Item:{selectedItem}</h4>
+      <h4>Total price:${total.toFixed(2)}</h4>
+      <h4> Total Shipping Charge:${shippingCharge.toFixed(2)}</h4>
+      <h4>Tax:${tax.toFixed(2)}</h4>
+      <h4>Grand Total:${grandTotal.toFixed(2)}</h4>
       </div>
       <div className="oredr-btn">
         <button className="btn-clear">Clear Cart</button>
